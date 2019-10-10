@@ -1,0 +1,47 @@
+.self-canvas
+{
+	margin: 15px;
+}
+
+.grid-x
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+
+.note
+{
+	background: url('../images/note.png');
+	width: 100%;
+	height: 250px;
+	position: relative;
+	background-size: cover;
+	margin-top: 15px;
+	transition: all 1s ease-in-out;
+}
+
+.note:hover
+{
+	opacity: 0.5;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.note p
+{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	font-weight: bold;
+	max-width: 200px;
+}
+
+.large-4 .medium-6 .small-12
+{
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	-webkit-hyphens:auto;
+	hyphens:auto;
+	word-wrap:break-word;
+}
